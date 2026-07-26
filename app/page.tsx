@@ -2,7 +2,6 @@
 import { CreatePost } from '@/components/feed/create-post'
 import { PostCard } from '@/components/feed/post-card'
 import { ProfileSidebar } from '@/components/feed/profile-sidebar'
-import { SuggestionsSidebar } from '@/components/feed/suggestions-sidebar'
 
 import { useAppSelector } from '@/store/hooks'
 
