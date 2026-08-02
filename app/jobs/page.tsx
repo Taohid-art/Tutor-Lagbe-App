@@ -485,7 +485,7 @@ export default function JobsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
+    <div className="min-h-screen ">
       <div className="mx-auto flex w-full max-w-[1560px] flex-col gap-5 px-4 py-5 lg:flex-row">
         <aside className="w-full lg:sticky lg:top-20 lg:w-[280px] lg:self-start">
           <div className="space-y-2">
