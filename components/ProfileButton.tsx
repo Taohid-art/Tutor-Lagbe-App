@@ -36,9 +36,17 @@ const ProfileButton = () => {
         <Settings className="mr-1 h-4 w-4" />
         <Link href='/settings'>Settings</Link>
     </DropdownMenuItem>
+     <DropdownMenuItem>
+        <LogOut className="mr-1 h-4 w-4" />
+        <Link href='/login' className="bg-blue-500  text-white">Login</Link>
+    </DropdownMenuItem>
+     <DropdownMenuItem>
+        <LogOut className="mr-1 h-4 w-4" />
+        <Link href='/register' className="text-blue-500">Register</Link>
+    </DropdownMenuItem>
     <DropdownMenuItem>
         <LogOut className="mr-1 h-4 w-4" />
-        <Link href='/' className="text-red-500">Logout</Link>
+        <Link href='/logout' className="text-red-500">Logout</Link>
     </DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>
